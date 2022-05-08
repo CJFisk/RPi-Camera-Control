@@ -1,6 +1,6 @@
 # RPi-Camera-Control
 **Final project for CSCI 420: Networking**
-
+Christianna Fisk
 
 ### Project Objectives
 In this project, I worked on creating an application-level protocol for remote control of a camera.
