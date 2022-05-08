@@ -1,5 +1,5 @@
 # RPi-Camera-Control
-**Final project for CSCI 240: Networking**
+**Final project for CSCI 420: Networking**
 
 
 ### Project Objectives
