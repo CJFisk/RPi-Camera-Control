@@ -79,6 +79,11 @@ Items Required:
 * Breadboard
 * Wires
 
+<p float="left">
+  <img src="Picture1.jpg" width="500" />
+  <img src="Picture2.jpg" width="500" /> 
+</p>
+
 Initial Setup:
 * Wiring the RPi camera and pan/tilt servo:
   * Insert the Camera Module ribbon cable into the Camera Module port
