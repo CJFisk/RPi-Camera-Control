@@ -1,5 +1,6 @@
 # RPi-Camera-Control
 **Final project for CSCI 420: Networking**
+
 Christianna Fisk
 
 ### Project Objectives
