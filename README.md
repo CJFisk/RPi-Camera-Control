@@ -25,7 +25,7 @@ In this project, I worked on creating an application-level protocol for remote c
 * Thanks to:
   * Dr. Robert Willhoft for the initial TCP connection code
   * Camera setup from https://projects.raspberrypi.org/en/projects/getting-started-with-picamera
-  * Code to control RPI pan and tilt servo from https://www.instructables.com/Raspberry-Pi-Cam-Pan-Tilt-Control-Over-Local-Inter/
+  * Code to control RPi pan and tilt servo from https://www.instructables.com/Raspberry-Pi-Cam-Pan-Tilt-Control-Over-Local-Inter/
   * Code to transfer files using Sockets in Python based on code from https://www.thepythoncode.com/article/send-receive-files-using-sockets-python
 * Personal Contributions:
   * Designing a state diagram
@@ -92,12 +92,12 @@ Initial Setup:
     * Brown – GND
     * Red/Orange – 5V
     * Yellow – GPIO 19 and GPIO 6
-* On the RPi, you should have *rpi_server.py*, an *images* folder, and a *videos* folder.
-* On your laptop (or client), you should have *client.py*, an *images* folder, and a *videos* folder.
+* On the RPi, you should have '*rpi_server.py*', an *images* folder, and a *videos* folder.
+* On your laptop (or client), you should have '*client.py*', an *images* folder, and a *videos* folder.
 
 Running the Code:
-* On the RPi, run *python3 rpi_server.py*
-* On your laptop, run *python client.py*, then enter a command
+* On the RPi, run '*python3 rpi_server.py*'
+* On your laptop, run '*python client.py*', then enter a command
 
   
 ### Reflections
