@@ -38,14 +38,14 @@ In this project, I worked on creating an application-level protocol for remote c
 ### Overview of Possible Commands
 * QUERY
   * Checks all commands
-* ADJUST <setting> <value>
+* ADJUST \<setting\> \<value\>
   * Adjusts a setting for the RPi camera
   * Currently, the only setting available is *rotation*, which can be set to 0º, 90º, 180º, or 270º
-* COUNT <medium>
+* COUNT \<medium\>
   * Returns a count of *photos* or *videos* taken thus far
-* PAN <angle>
+* PAN \<angle\>
   * Pans the servo to an *angle* between 30º-150º
-* TILT <angle>
+* TILT \<angle\>
   * Tilts the servo to an *angle* between 30º-150º
 * START_VIDEO
   * Begins recording
@@ -56,10 +56,10 @@ In this project, I worked on creating an application-level protocol for remote c
 * STATUS_VIDEO
   * Only valid when recording is in process
   * Checks current length of video in minutes and seconds
-* PHOTO <num> <interval>	
+* PHOTO \<num\> \<interval\>	
   * Takes *num* photos, each separated by *interval* seconds
   * Each photo is labeled by a number initially set to 1
-* SEND <medium> <value>
+* SEND \<medium\> \<value\>
   * Sends either the *photo* or the *video* with the appropriately labeled *value*
 * QUIT
   * Closes the socket
@@ -68,6 +68,7 @@ In this project, I worked on creating an application-level protocol for remote c
 ### State Diagram
 Once the connection has been established, the RPi camera enters into the 'Steady' state. This state diagram then visualizes the possible states of the RPi camera, displaying the commands that move the camera into the state and the acknowledgements that are sent back to the client as the camera moves back into the 'Steady' state.
 
+![](state_diagram.PNG)
   
 ### Getting Started
 Items Required:
