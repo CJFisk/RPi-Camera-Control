@@ -80,8 +80,8 @@ Items Required:
 * Wires
 
 <p float="left">
-  <img src="Picture1.jpg" width="500" />
-  <img src="Picture2.jpg" width="500" /> 
+  <img src="Picture1.jpg" width="300" />
+  <img src="Picture2.jpg" width="300" /> 
 </p>
 
 Initial Setup:
