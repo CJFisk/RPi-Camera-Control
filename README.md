@@ -27,7 +27,7 @@ In this project, I worked on creating an application-level protocol for remote c
   * Camera setup from https://projects.raspberrypi.org/en/projects/getting-started-with-picamera
   * Code to control RPI pan and tilt servo from https://www.instructables.com/Raspberry-Pi-Cam-Pan-Tilt-Control-Over-Local-Inter/
   * Code to transfer files using Sockets in Python based on code from https://www.thepythoncode.com/article/send-receive-files-using-sockets-python
-* Personal Contributions
+* Personal Contributions:
   * Designing a state diagram
     * Visualizing states, commands, and acknowledgements
   * Determining valid commands 
@@ -40,13 +40,13 @@ In this project, I worked on creating an application-level protocol for remote c
   * Checks all commands
 * ADJUST <setting> <value>
   * Adjusts a setting for the RPi camera
-  * Currently, the only setting available is rotation, which can be set to 0º, 90º, 180º, or 270º
+  * Currently, the only setting available is *rotation*, which can be set to 0º, 90º, 180º, or 270º
 * COUNT <medium>
-  * Returns a count of photos or videos taken thus far
+  * Returns a count of *photos* or *videos* taken thus far
 * PAN <angle>
-  * Pans the servo to an angle between 30º-150º
+  * Pans the servo to an *angle* between 30º-150º
 * TILT <angle>
-  * Tilts the servo to an angle between 30º-150º
+  * Tilts the servo to an *angle* between 30º-150º
 * START_VIDEO
   * Begins recording
   * Once recording, the only valid commands are END_VIDEO, STATUS, PAN, and TILT
@@ -57,10 +57,10 @@ In this project, I worked on creating an application-level protocol for remote c
   * Only valid when recording is in process
   * Checks current length of video in minutes and seconds
 * PHOTO <num> <interval>	
-  * Takes num photos, each separated by interval seconds
+  * Takes *num* photos, each separated by *interval* seconds
   * Each photo is labeled by a number initially set to 1
 * SEND <medium> <value>
-  * Sends either the photo or the video with the appropriately labeled value
+  * Sends either the *photo* or the *video* with the appropriately labeled *value*
 * QUIT
   * Closes the socket
 
