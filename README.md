@@ -4,10 +4,7 @@
 Christianna Fisk
 
 ### Project Objectives
-In this project, I worked on creating an application-level protocol for remote control of a camera.
-* Specifically for the RPi, but may later be extended to other types of cameras:
-    * DLSR, Video Recorder/Camcorder, Phone Camera
-
+In this project, I worked on creating an application-level protocol for remote control of a camera, specifically for the RPi.
 
 ### Principles of Networking Involved
 * Client-Server Model
