@@ -92,8 +92,8 @@ Initial Setup:
     * Brown – GND
     * Red/Orange – 5V
     * Yellow – GPIO 19 and GPIO 6
-* On the RPi, you should have '*rpi_server.py*', an *images* folder, and a *videos* folder.
-* On your laptop (or client), you should have '*client.py*', an *images* folder, and a *videos* folder.
+* On the RPi, you should have *rpi_server.py*, an *images* folder, and a *videos* folder.
+* On your laptop (or client), you should have *client.py*, an *images* folder, and a *videos* folder.
 
 Running the Code:
 * On the RPi, run '*python3 rpi_server.py*'
@@ -101,8 +101,7 @@ Running the Code:
 
   
 ### Reflections
-Successes:
-* I was successfully able to establish a TCP connection from my laptop to my RPi, and then send commands from my laptop to control various features of the RPi camera.
+I was successfully able to establish a TCP connection from my laptop to my RPi, and then send commands from my laptop to control various features of the RPi camera.
 
 Problems:
 * I am still troubleshooting the 'SEND <photo/video>' command
